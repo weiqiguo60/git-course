@@ -1,0 +1,24 @@
+# I am the .gitignore file
+# On Windows, I'll appear without a name.
+# In Nautilus (Default Ubuntu File Manager.. other distros are available..), press CTRL-H to view hidden files.
+# Or 'ls -a' to show all files
+
+# List files/directories here that you do not want to commit.
+# Examples include:
+# Files containing personal configurations, passwords, dbs
+# Files created by text editors/IDES
+
+# File
+file.js
+*.pyc
+
+# Gedit File
+*.*~
+
+
+# Directory
+path/var/log/some/where/
+
+# Webstorm [IDE] Directory
+.idea/*
+
