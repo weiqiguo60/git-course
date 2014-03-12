@@ -11,6 +11,7 @@
 # File
 file.js
 *.pyc
+todo.txt
 
 # Gedit File
 *.*~
