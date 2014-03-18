@@ -22,3 +22,6 @@ path/var/log/some/where/
 # Webstorm [IDE] Directory
 .idea/*
 
+
+# OR 
+# git config --global core.excludesfile ~/.gitignore_global
