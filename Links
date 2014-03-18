@@ -1,0 +1,13 @@
+http://git-scm.com/download/win
+
+http://git-scm.com/download/linux
+
+http://git-scm.com/download/mac
+
+git clone https://github.com/git/git
+
+https://help.github.com/articles/generating-ssh-keys
+
+ssh-keygen -t rsa -C "your_email@example.com"
+clip < ~/.ssh/id_rsa.pub
+ssh -T git@github.com
