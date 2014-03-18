@@ -1,13 +1,19 @@
+Downloads:
 http://git-scm.com/download/win
 
 http://git-scm.com/download/linux
 
 http://git-scm.com/download/mac
 
-git clone https://github.com/git/git
+Compile yourself:
+https://github.com/git/git
 
-https://help.github.com/articles/generating-ssh-keys
-
+Generating a new ssh key:
 ssh-keygen -t rsa -C "your_email@example.com"
 clip < ~/.ssh/id_rsa.pub
+Then test it:
 ssh -T git@github.com
+
+
+//////// Just for further knowledge ////////////////
+git update-index --assume-unchanged path/to/file.txt
